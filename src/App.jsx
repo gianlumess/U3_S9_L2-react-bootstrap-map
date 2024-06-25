@@ -4,15 +4,17 @@ import MyNav from "./components/MyNav";
 import ChooseBooksCategory from "./components/ChooseBooksCategory";
 import { Container } from "react-bootstrap";
 import MyFooter from "./components/MyFooter";
-import CardsForBooks from "./components/CardsForBooks";
+import AllTheBooks from "./components/AllTheBooks";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
     <>
       <MyNav />
       <Container>
+        <Welcome />
         <ChooseBooksCategory />
-        <CardsForBooks />
+        <AllTheBooks />
       </Container>
       <MyFooter />
     </>

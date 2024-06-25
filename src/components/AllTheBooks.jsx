@@ -1,9 +1,13 @@
 import { Component } from "react";
 import fantasy from "../books/fantasy.json";
+import history from "../books/history.json";
+import horror from "../books/horror.json";
+import romance from "../books/romance.json";
+import scifi from "../books/scifi.json";
 import { Col, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
-class CardsForBooks extends Component {
+class AllTheBooks extends Component {
   render() {
     return (
       <Row>
@@ -27,4 +31,4 @@ class CardsForBooks extends Component {
   }
 }
 
-export default CardsForBooks;
+export default AllTheBooks;
