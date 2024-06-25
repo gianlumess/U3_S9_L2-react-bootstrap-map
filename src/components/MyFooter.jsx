@@ -10,7 +10,6 @@ class MyFooter extends Component {
           <br />
           <a href="mailto: info@epicode.school">info@epicode.school</a>
           <br />
-          <address className="mb-0">Via Appia 1 - 00100 Roma (RM)</address>
         </div>
       </div>
     );
