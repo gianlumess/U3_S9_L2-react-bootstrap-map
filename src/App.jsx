@@ -13,7 +13,6 @@ function App() {
       <MyNav />
       <Container>
         <Welcome />
-        <ChooseBooksCategory />
         <AllTheBooks />
       </Container>
       <MyFooter />
