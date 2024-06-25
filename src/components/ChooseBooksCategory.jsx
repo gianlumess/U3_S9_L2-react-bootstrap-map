@@ -5,7 +5,7 @@ import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 class ChooseBooksCategory extends Component {
   render() {
     return (
-      <ToggleButtonGroup className="mt-5" type="radio" name="options" defaultValue={1}>
+      <ToggleButtonGroup className="mt-5 mb-4" type="radio" name="options" defaultValue={1}>
         <ToggleButton id="tbg-radio-1" value={1}>
           Fantasy
         </ToggleButton>
