@@ -37,6 +37,10 @@
   }
 }
 
-.book-cover {
+.card {
   height: 100%;
+}
+
+.card img {
+  height: 300px;
 }
