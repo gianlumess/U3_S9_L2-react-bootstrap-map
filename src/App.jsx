@@ -1,12 +1,17 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import MyNav from "./components/MyNav";
+import ChooseBooksCategory from "./components/ChooseBooksCategory";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <MyNav />
-    </div>
+      <Container>
+        <ChooseBooksCategory />
+      </Container>
+    </>
   );
 }
 
