@@ -3,6 +3,7 @@ import "./App.css";
 import MyNav from "./components/MyNav";
 import ChooseBooksCategory from "./components/ChooseBooksCategory";
 import { Container } from "react-bootstrap";
+import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Container>
         <ChooseBooksCategory />
       </Container>
+      <MyFooter />
     </>
   );
 }
